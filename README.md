@@ -1,6 +1,6 @@
 # Hamburguer Artesanal
 
-#### Cenário: Uma lanchonete quer fazer um sistema de ordens para os clientes fazerem seus próprios hamburgeres a partir dos ingredientes disponíveis, onde cada ingrediente tem um nome e preço.
+#### Cenário: Uma lanchonete quer fazer um sistema de ordens para os clientes fazerem seus próprios hamburgers a partir dos ingredientes disponíveis, onde cada ingrediente tem um nome e preço.
 
 
 | ingrediente  |  Preço |
