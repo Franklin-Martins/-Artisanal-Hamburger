@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const BeefBurger_1 = require("./Burger/BeefBurger");
+const BeefBurgerDecorator_1 = require("./Burger/BeefBurgerDecorator");
+const Order_1 = require("./Order/Order");
+const burgerOne = new BeefBurger_1.BeefBurger();
+const burgerWithChesse = new BeefBurgerDecorator_1.Chesse(burgerOne);
+const burgerTwo = new BeefBurger_1.BeefBurger();
+const burgerWithPepperoni = new BeefBurgerDecorator_1.Pepperoni(burgerTwo);
+Order_1.order.showOrders();
